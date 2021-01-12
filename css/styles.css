@@ -1,0 +1,178 @@
+body
+{
+  font-family: "Montserrat-Bolder";
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6
+{
+  font-family: "Montserrat-Bolder";
+}
+p
+{
+  color: #8f8f8f;
+}
+
+/* big-heading */
+
+.sec-heading
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.big-heading
+{
+  font-family: "Montserrat-white";
+  font-size: 3.5rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+/* container */
+
+.container-fluid
+{
+  padding: 7% 15% ;
+}
+
+/* section by color */
+
+.white-sec
+{
+  background-color: #fff;
+}
+.colored-sec
+{
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+/* navigation bar */
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+.navbar
+{
+  padding:0 0 4rem;
+}
+.nav-item
+{
+  padding-right: 18px;
+  padding-left: 18px;
+}
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* button download */
+.download-button
+{
+  margin: 5% 3% 5% 0;
+}
+/* title section */
+
+#title .container-fluid
+{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+/* title image */
+.woah
+{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 25%;
+}
+/* testimonial section */
+
+#testimonials
+{
+  background-color: #ef8172;
+}
+.testimonial-text
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testi-img
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#features
+{
+  position: relative;
+}
+.feature-title
+{
+  font-size: 1.5rem;
+}
+.icon
+{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fas:hover
+{
+  color: #ff4c68;
+}
+.feature-box
+{
+  padding: 4.5%;
+}
+
+
+/* press section */
+
+#press
+{
+  padding: 5%;
+  background-color: #ef8172;
+}
+
+.price-text
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.press-logo
+{
+  width: 20%;
+  margin: 10px 20px 40px;
+}
+
+/* pricing section */
+#pricing
+{
+  padding: 80px;
+}
+.pricing-col
+{
+  padding:3% 2%;
+}
+
+#footer
+{
+  background-color: #fff;
+}
+.icon-f
+{
+  margin: 20px 10px;
+}
+
+@media(max-width: 1028px)
+{
+  #title{
+    text-align: center;
+  }
+  .woah
+  {
+    position: static;
+    transform: rotate(0);
+  }
+}
